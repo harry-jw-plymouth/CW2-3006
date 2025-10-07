@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hotel Booking</title>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="main.js"></script>
+    </head>
+    <body onload="OnLoad()">
+        <div class="mainbox">
+            <h1 class="TitleBox">Hotel Website</h1>
+            <div class="OuterSelectionsBox">
+                <div class="StartDateBox">
+                    <h4>Select start date</h4><br>
+                    <input type="date" id="StartDate" name="StartDate">
+                </div>
+                <div class="StartDateBox">
+                    <h4>Select end date</h4><br>
+                    <input type="date" id="EndDate" name="EndDate">
+                </div>
+                <div class="StartDateBox">
+                    <h4>Amount of guests</h4><br>
+                    <label for="Adults">Adults</label>
+                    <input type="number" id="Adults" name="adults" min="1">
+                    <label for="Children">Children</label>
+                    <input type="number" id="Children" name="Children">
+                </div>
+                <div class="StartDateBox">
+                    <h4> Number of rooms</h4>
+                    <label for="Rooms">Rooms</label><br>
+                    <input type="Rooms" id="Rooms" name="Rooms" min="1">
+                </div>
+            </div><br>
+            <button id="SearchButton" name="SearchButton" onclick="OnSubmitClicked()">Search</button>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis mauris ac nibh congue, id tempus leo eleifend. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse potenti. Aenean vestibulum nulla sem, nec eleifend purus volutpat et. Suspendisse viverra, nunc ultricies ullamcorper venenatis, justo turpis posuere justo, at vestibulum metus leo ut enim. Proin tincidunt sem quis tristique interdum. Donec at velit a augue iaculis fermentum vitae varius metus. Phasellus dapibus ipsum at porta maximus. Fusce nulla tortor, fermentum ut tellus at, commodo ullamcorper lacus.<br>
+
+Aenean porttitor mauris ac sagittis dictum. Duis molestie lacus a tellus dapibus, a volutpat felis aliquet. Etiam eros urna, dapibus sed felis iaculis, elementum condimentum leo. Suspendisse at arcu sed purus semper accumsan. Aliquam eu posuere lorem, vitae ornare quam. Sed tempus ullamcorper porttitor. Morbi ac metus eget augue mattis fringilla at sed justo. Donec accumsan est lacus, ac auctor nunc lacinia in. Aenean tristique lobortis dui. Vivamus suscipit nulla vel mauris tempor, vitae vulputate mi mattis. Nulla mattis sapien odio, at volutpat erat consectetur sit amet.<br>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet nec justo ut mollis. Vestibulum convallis mollis ligula ornare pulvinar. Maecenas non pharetra est. Maecenas et porta mauris. Donec auctor diam dui, quis laoreet metus ullamcorper at. Aliquam ligula augue, vehicula id volutpat sit amet, volutpat a odio. Pellentesque a neque vitae mi maximus auctor. Etiam ipsum erat, ultricies imperdiet imperdiet ut, faucibus nec nulla. Nullam feugiat id felis hendrerit egestas. Sed et nulla vel elit condimentum cursus ut ut ligula. Nam vitae interdum mi. Vivamus blandit iaculis diam, ut volutpat felis venenatis et. Duis non sagittis lacus, non ullamcorper diam. Etiam eu elementum neque, at ultricies quam. Nunc maximus odio id elit rhoncus, at tempor neque facilisis.</p><br>
+        </div>
+
+    </body>
+</html>

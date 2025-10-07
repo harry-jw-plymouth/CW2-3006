@@ -1,0 +1,31 @@
+body{
+    background-color: purple;
+}
+.mainbox{
+    width: 90vh;
+    height: 100vh;
+    border: 1px solid blue;
+    margin: auto;
+    background-color: white;
+    margin-top: 10px;
+}
+.TitleBox{
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    font-size: larger;
+}
+.OuterSelectionsBox{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    border:1px solid purple;
+    display: flex;
+    
+}
+.StartDateBox{
+    flex: 1;
+    height: fit-content;
+    width: fit-content;
+}
